@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "pars-app",
-    "slug": "pars-app",
+    "name": "Pars",
+    "scheme": "pars",
+    "slug": "pars",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
