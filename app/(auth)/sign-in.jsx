@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, Image,Alert } from "react-native";
+import { View, Text, ScrollView, Image, Alert } from "react-native";
 import React, { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "../../constants";
@@ -9,7 +9,6 @@ import { getCurrentUser, signIn } from "../../lib/appwrite";
 import { useGlobalContext } from "../../context/GlobalProvider";
 
 const SignIn = () => {
-
   const { setUser, setIsLogged } = useGlobalContext();
 
   const [isSubmitting, setSubmitting] = useState(false);
@@ -27,7 +26,7 @@ const SignIn = () => {
 
     try {
       await signIn(form.email, form.password);
-      
+
       const result = await getCurrentUser();
       setUser(result);
       setIsLogged(true);

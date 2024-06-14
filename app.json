@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Pars",
-    "scheme": "pars",
-    "slug": "pars",
+    "name": "project",
+    "scheme": "project",
+    "slug": "project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,14 +17,15 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "package": "com.saulfranco.pars"
+      "package": "com.saulfranco.project",
+      "bundleIdentifier": "com.saulfranco.project"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.saulfranco.pars"
+      "package": "com.saulfranco.project"
     },
     "web": {
       "favicon": "./assets/favicon.png"
